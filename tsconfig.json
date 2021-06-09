@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "es6",
+        "strict": true,
+       // "noEmit": true    check types without any output
+       "isolatedModules": true,     //compiler don't know anything about surroundings
+       "esModuleInterop": true,
+       "skipLibCheck": true,
+       "jsx": "react",
+       "sourceMap": true,        //include source maps in compiled code
+       "moduleResolution": "Node",
+       "resolveJsonModule": true,
+       "plugins": [{ "name": "typescript-plugin-css-modules"}]
+
+    },
+    "include": ["./src/**/*"],
+
+}

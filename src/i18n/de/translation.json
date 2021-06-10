@@ -1,0 +1,8 @@
+{
+    "title": "Welcome to react using react-i18next and typescript 4.1",
+    "description": {
+      "part1": "This 1 an example without namespaces.",
+      "part2": "In order to infer the123 appropriate type for t function, you should use type augmentation to override the Resources type.",
+      "part3": "Check out123i18next to see an example."
+    }
+  }
